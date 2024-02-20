@@ -22,4 +22,9 @@ Questions:
 - Why do they not have a temperature controller?
 
 [[39300F90-69AA-4AA0-9554-D86684902736.pdf]]
-Summary: These paper went over the complete extensive setup of a diode laser for our experiment. It has a lot of good information on what we should be looking for with specifications. They recommend a laser with a bandwidth of 1MHz. 
+Summary: This paper went over the complete extensive setup of a diode laser for our experiment. It has a lot of good information on what we should be looking for with specifications. They recommend a laser with a bandwidth of 1MHz.
+
+
+Talked to Dr. Zimmerman
+Our first objective for this project will try to get the current laser diode setup to function and observe SAS. Parallel with that process we will also 3D print the mounts for the external cavity.
+We also discussed diffraction gratings. I am use to them diffracting where the diffracted light goes through the grating. The papers use a different kind a diffraction grating which is glazed. This glazed portion causes the diffraction to reflect backwards and are specialized for a particular order and wavelength. The ones we have are for 780nm with 1200lines/mm.
