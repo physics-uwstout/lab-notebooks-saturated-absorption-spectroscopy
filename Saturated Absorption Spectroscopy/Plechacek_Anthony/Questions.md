@@ -3,3 +3,4 @@
 - what is a Peltier thermoelectric cooler?
 -  Their experiment used a version that allowed 42-48 deg of motion with a 780mm 25mW laser. With gratings of 1800 lines/mm and 1200 lines/mm results were achieved of 743-825nm and 1115-1238nm wavelengths respectfully. What is our goal of wavelength, grating, and spectrum?
 - Why do they not have a temperature controller?
+- I do not understand how we are suppose to change the wavelength of light with a diffraction grating. In previous classes we have used a grating to measure the difference in angles to calculate the wavelength. 
