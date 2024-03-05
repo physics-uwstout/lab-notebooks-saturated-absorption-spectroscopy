@@ -1,0 +1,14 @@
+
+# Daily Objectives
+- Understand more about laser stabilization.
+- Align the diffraction grating.
+
+## Laser Stabilization
+There are several ways to increase the stability of a laser. They are achieved in a few main methods which include control of temperature, diode cavity, diffraction grating, current, and external cavity. We are taking advantage of an external cavity diode laser (ECDL) which uses a diffraction grating and piezoelectric motor to adjust the cavity length. The diffraction grating is used to diffract the first-order light back into the diode. By diffracting the light back into the diode the line width of the zeroth-order will be reduced significantly. This will be more accurate results of saturated absorption since the wavelength of the light will be more centralized around a particular wavelength.
+
+## Aligning the Diffraction Grating
+The first step in aligning the grating is setting up the collimating lens. Looking down the barrel of the laser diode housing I noticed that the diode was not concentric. Taking it out and reinserting it fixed this issue. The collimating lens is used to create parallel light rays coming out of the housing. This is important to do so the beam has uniform intensity throughout its length making it easier to properly align the diffraction grating. To do this we compared the size of the laser dot near the diode and a further away distance (2m). The dots should be the same size if the light is collimated. Adjusting the distance between the lens and diode will adjust the sizes. A small spanner wrench with a hole in the center is used to screw the lens in and out. After accomplishing that, we took data comparing the voltage output of a photodetector and the input current to the laser diode. We want to know the threshold current for laser. There is a point where power will change drastically compared to current. We want the current set to this value for aligning the diffraction grating. When the grating is aligned there should be a jump in the output. This is easier to notice when the diode is set to the threshold.
+
+A rough alignment of the diffraction grating can be done by poking a small hole through a thick piece of paper. This hole is aligned with the beam between the diode and diffraction grating. If improperly aligned a red dot should be present that is not where the hole is in the paper. Adjustments to the diffraction grating should be made to move that dot to the hole in the paper. After this is done more fine adjustments can be made.
+
+Setting the current of the laser diode to the threshold current with reading the output from the photodiode and adjust the angle of the diffraction grating can be done next. Sweeping the diffraction grating through different angular positions until a jump in the output should be done to find alignment. This is tedious. 
