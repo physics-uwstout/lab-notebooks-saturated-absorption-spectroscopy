@@ -1,0 +1,35 @@
+# Daily Objectives
+- Look at previous lab notebooks.
+- Align the diffraction grating
+- Look into the 3D printed extended cavity diode laser.
+
+
+## 3D Printed Extended Cavity Diode Laser
+In a previous day I downloaded all of the CAD files that were associated with [[3D printing an ECDL.pdf]]. Looks like they were designed in Autodesk Inventor as the part files are .ipt (Inventor Part). Stout uses SolidWorks. I imported them all into SolidWorks to get a feel of what the parts look like. The are all self explanatory. For a laser housing they are using [[LDM21-Manual.pdf]]. This has integrated temperature regulation. Our housing is [[Laser Diode Collimation Tube.png]]. Unsure of what lens is in it. Should not be important for now. This difference in laser diode housing will cause a change in the cad files. Will need to look into this later. We do have a [[TCLDM9-Manual.pdf]] ThorLabs says this model is obsolete. I did not see why. This housing is temperature stabilizing. Could be a really good tool instead of just using the collimating tube. Will have to do more research later.
+
+## Alignment of Diffraction Grating
+Will start to get precise alignment of the grating. I do have concern that the grating is damaged and will not be able to produce enough of a difference to the setup. Refer back to [[February 29th, 2024]] to get the first step of the grating lined up. This next procedure should only be done once the previous is completed and the laser diode light is collimated.
+
+Knowing this 1st order diffraction is roughly it is reasonable to guess that the beam is relatively close to being "perfectly" aligned. A way to raster around this point is needed to "perfectly" align the diffraction beam. When it is perfectly aligned a rise is power output can be measured. For this the oscilloscope is setup with a [[SM1PD1A-SpecSheet.pdf]] to measure the voltage of the photodetector. There should be a jump in voltage once aligned. For the [[L785P090-SpecSheet.pdf]] laser diode we used the input current was set to 33.80 mA. This current should be set to a value around the lasing threshold as a jump in power will be more easily noticed. Data can be taken on this to get a precise value. Our value was set there since adjusting the current into the laser diode cause a large rise in voltage. The current was set to just below the jump in voltage. This agrees with the data sheet [[L785P090-SpecSheet.pdf]] since the threshold current there is 35mA.
+
+On to raster process....
+The diffraction grating has to be moved through known points in space. The exact location is not necessary but a relative is good enough for what we want to accomplish. Our positions are measured by the knob on the diffraction grating mount. It has 10 rounds on it, so indexing from one round to the next is a 36 degree change in position. There is one knob for horizontal rotation and one for vertical. This gives us a location that can be plotted against the power. The next step is to choose what range to raster through. There could be a small or large distance between where it was roughly aligned to the precise location. We chose to move 10 increments of 36 degrees away from the rough alignment position. This is just a guess of location. We might have to go back later and do a finer increment adjustment and/or larger range than 10.
+
+While doing this next step record the position of both knobs and the reading from the oscilloscope. Stop when a large spike in the oscilloscope is noticed or completion of the below. We noticed a spike of about 50mV.
+
+First I moved 10 increments down on one knob and do a raster of 10 increments down on the other. Proceeding with 20 increments up on the second knob. Now I proceed by down one increment up on the first. Follow this by doing 20 increments down on the second. Repeat these last two steps switching the direction of the second knob for every single increment of the first. Do this until 20 increments up on the first knob are completed. In space you will be moving in a square oscillating pattern.
+
+If no spikes in reading from the oscilloscope were noticed, increase the distance from the rough alignment position. You might also have to make the increments smaller if your positions moved around the spike.
+
+Once the spike in reading is located try adjusting the knobs until a maximum value is reached.
+
+Here is what our data looks like:
+![[Diffraction Grating Alignment, Position vs Power.png]]
+
+## Previous Lab Notebooks
+The previous notebooks were not much help. To view them paste the link in a private browser. [Anderson, Kyle (sharepoint.com)](https://liveuwstout-my.sharepoint.com/personal/zimmermant_uwstout_edu/_layouts/15/WopiFrame.aspx?sourcedoc=%2Fpersonal%2Fzimmermant%5Fuwstout%5Fedu%2FDocuments%2FClass%20Notebooks%2FPHYS%2D139%20and%20PHYS%2D439%20Spring%202018%2FAnderson%2C%20Kyle&action=view&wd=target%28Lab%20Notebook.one%7C5b553676-0306-44bc-b397-0424e0bb5b27%2F4%5C%2F26%7C8709adf7-9d64-4336-80d8-f72b6f39b460%2F%29&wdorigin=NavigationUrl)
+https://liveuwstout-my.sharepoint.com/personal/zimmermant_uwstout_edu/_layouts/15/WopiFrame.aspx?sourcedoc=%2Fpersonal%2Fzimmermant%5Fuwstout%5Fedu%2FDocuments%2FClass%20Notebooks%2FPHYS%2D139%20and%20PHYS%2D439%20Spring%202018%2FAndres%2C%20Tyler&action=view&wd=target%28Optics%20Tutorials.one%7Cbad89904-3f75-f24e-bdf4-665ac72fc034%2FOptics%20Tutorial%7Cba91413a-792b-a440-8f45-233388615097%2F%29&wdorigin=NavigationUrl
+
+Most of the time they were graphing the power vs temperature or temperature. This data is not helpful since we want to know the stabilization of the wavelength not so much the power. Although, they probably are similarity related. They never got to the point where the diffraction grating was aligned into the laser diode like we achieved today. 
+
+
