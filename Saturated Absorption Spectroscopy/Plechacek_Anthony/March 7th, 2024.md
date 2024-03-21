@@ -1,0 +1,9 @@
+
+# Daily Objectives
+- Try to achieve absorption spectroscopy to occur through adjust current input.
+- Setup wavelength spectrometer.
+
+## Wavelength Spectrometer
+So we were given a spectrometer from ThorLabs: [[CCS100-Manual.pdf]]. This spectrometer is useful for light of 350nm-700nm. Out laser diode is 785nm. I believe this to be useless. Will move on to looking for different spectrometer. :)
+
+## Absorption Spectroscopy
