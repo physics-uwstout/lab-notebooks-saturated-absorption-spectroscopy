@@ -1,0 +1,27 @@
+
+- [[02_08_2024]]
+	- First day of lab trying to understand what Saturated Absorption Spectroscopy is.
+- [[02_13_2024]]
+	- More understanding of Saturated Absorption Spectroscopy is and the beginnings of the experimental setup.
+- [[02_15_2024]]
+	- Exploring external diode cavities and what setup we are using.
+- [[02_20_2024]]
+	- Setting up a photodiode to measure laser diode and investigation diffraction gratings.
+- [[02_22_2024]]
+	- Diffraction grating calculations, accumulation of supplies, and crude setup.
+- [[02_27_2024]]
+	- Measuring frequency and the beginnings of diffraction grating alignment.
+- [[02_29_2024]]
+	- How to stabilize a laser and diffraction grating alignment.
+- [[03_05_2024]]
+	- Understanding paper on 3d printed setup, successful diffraction grating alignment, and previous lab notebooks.
+- [[03_07_2024]]
+	- Looking into spectrometer and messed up diffraction grating alignment.
+- [[03_21_2024]]
+	- Alignment of diffraction grating again and successful spectrometer.
+- [[03_26_2024]]
+	- Testing fluorescence and looking into cooling the diode.
+- [[03_28_2024]]
+	- Adjusting 3D print to fit equipment we have.
+- [[04_02_2024]]
+	- Setting up TCLDM9 laser diode mount for new setup.
