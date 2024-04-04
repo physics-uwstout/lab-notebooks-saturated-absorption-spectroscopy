@@ -25,3 +25,5 @@
 	- Adjusting 3D print to fit equipment we have.
 - [[04_02_2024]]
 	- Setting up TCLDM9 laser diode mount for new setup.
+- [[04_04_2024]]
+	- Getting the workbench ready for readings and old housing cooling.
