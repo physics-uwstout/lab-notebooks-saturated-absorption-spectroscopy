@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Sequence xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4">
+  <Devices>
+    <DeviceDefinition DeviceAlias="Device001" RestoreParameters="true">
+      <DeviceName>KCube Piezo Controller</DeviceName>
+      <DevicePrefix>29</DevicePrefix>
+      <SerialNo>29501340</SerialNo>
+      <Actuator />
+    </DeviceDefinition>
+  </Devices>
+  <SequenceEventCollection>
+    <SequenceElements xsi:type="Event" Name="Increase Voltage">
+      <Description />
+      <DeviceSequences>
+        <Device DeviceName="Device001">
+          <DeviceActions>
+            <Action FunctionName="Repeat">
+              <Parameters>
+                <NameValuePairOfObject Name="RepeatCount">
+                  <Value xsi:type="xsd:int">150</Value>
+                </NameValuePairOfObject>
+                <NameValuePairOfObject Name="NameTag">
+                  <Value xsi:type="xsd:string">End</Value>
+                </NameValuePairOfObject>
+              </Parameters>
+            </Action>
+            <Action FunctionName="SetRelativeValue">
+              <Parameters>
+                <NameValuePairOfObject Name="Step">
+                  <Value xsi:type="xsd:decimal">1</Value>
+                </NameValuePairOfObject>
+                <NameValuePairOfObject Name="Direction">
+                  <Value xsi:type="xsd:int">1</Value>
+                </NameValuePairOfObject>
+              </Parameters>
+            </Action>
+            <Action FunctionName="Wait">
+              <Parameters>
+                <NameValuePairOfObject Name="Time">
+                  <Value xsi:type="xsd:int">1000</Value>
+                </NameValuePairOfObject>
+              </Parameters>
+            </Action>
+          </DeviceActions>
+        </Device>
+      </DeviceSequences>
+    </SequenceElements>
+    <SequenceElements xsi:type="Event" Name="Set Voltage to Zero">
+      <Description />
+      <DeviceSequences>
+        <Device DeviceName="Device001">
+          <DeviceActions>
+            <Action FunctionName="SetVoltage">
+              <Parameters>
+                <NameValuePairOfObject Name="SetVoltage">
+                  <Value xsi:type="xsd:decimal">0</Value>
+                </NameValuePairOfObject>
+              </Parameters>
+            </Action>
+          </DeviceActions>
+        </Device>
+      </DeviceSequences>
+    </SequenceElements>
+  </SequenceEventCollection>
+  <RepeatCount>1</RepeatCount>
+  <RepeatContinuously>false</RepeatContinuously>
+  <RepeatRun>false</RepeatRun>
+  <SequenceLogPath>C:\Users\PlechacekAnthony\OneDrive - University of Wisconsin-Stout\Documents\Thorlabs\Thorlabs.MotionControl.Kinesis\Sequence Logs</SequenceLogPath>
+</Sequence>

@@ -29,3 +29,15 @@
 	- Getting the workbench ready for readings and old housing cooling.
 - [[Plechacek_Anthony/04_09_2024]]
 	- 3D printed mount setup.
+- [[04_09_2024]]
+	- More 3D print mount setup.
+- [[04_11_2024]]
+	- More 3D print mount setup issues and old setup.
+- [[04_16_24]]
+	- Poster for research day.
+- [[04_18_24]]
+	- Null
+- [[04_23_24]]
+	- Testing and paper work.
+- [[04_25_24]]
+	- Same as previous day.
